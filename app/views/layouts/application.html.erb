@@ -23,8 +23,10 @@
     <% flash.each do |type, message| %>
       <div class="card-panel teal lighten-2"><h5><%= content_tag :div, message.html_safe, class:"flash-#{type}" %></h5></div>
     <% end %>
+
     <%= yield %>
   </div>
+  
   <!--Import jQuery before materialize.js-->
        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <script type="text/javascript" src="js/materialize.min.js"></script>

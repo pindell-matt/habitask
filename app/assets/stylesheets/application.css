@@ -11,7 +11,9 @@ body {
 }
 
 .flash-notice {
+  background-color #1de9b6;
   text-align: center;
+  color: white;
 }
 
 /*slider*/
@@ -33,4 +35,11 @@ body {
 .slider .indicators {
   bottom: 60px;
   z-index: 100;
+}
+
+caption a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
 }
