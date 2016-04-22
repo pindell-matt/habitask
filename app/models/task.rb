@@ -10,4 +10,14 @@ class Task < ActiveRecord::Base
   validates :hours, presence: true
   validates :image_path, presence: true
   validates :city_id, presence: true
+
+  # def self.all_tasks
+  #   all.map do |task|
+  #     TaskTime.new(task)
+  #   end
+  # end
+
+  def display_time
+    self.start_time.strftime('%l:%M %p')
+  end
 end
