@@ -1,14 +1,14 @@
 $(document).ready(function(){
 
   $(".button-collapse").sideNav({
-
-    menuWidth: 150, // Default is 240
-    edge: 'left', // Choose the horizontal origin
-    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-
+    menuWidth: 175,
+    edge: 'left',
+    closeOnClick: true 
   });
 
-  $('.slider').slider({Default: 100});
+  $('.slider').slider({
+    Height: 425
+  });
 
   $(".dropdown-button").dropdown({
     inDuration: 300,
