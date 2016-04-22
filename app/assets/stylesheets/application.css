@@ -37,9 +37,6 @@ body {
   z-index: 100;
 }
 
-caption a:link, a:visited {
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
+.slider .indicators .indicator-item.active {
+  background-color: #26a69a;
 }
