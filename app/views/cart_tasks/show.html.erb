@@ -1,10 +1,25 @@
 <h1>Welcome to your Cart</h1>
+
   <div class="checkout-button">
     <% if current_volunteer %>
-    <%= button_to "Checkout", cart_path, method: :get, class:"slider-btn waves-effect waves-light btn"%>
+      <%= button_to "Checkout", cart_path, method: :get, class:"slider-btn waves-effect waves-light btn"%>
     <% else %>
-    <%= button_to "Login or Create Account to Checkout", login_path, method: :get, class:"slider-btn waves-effect waves-light btn" %>
+      <!-- <%= button_to "Login or Create Account to Checkout", login_path, method: :get, class:"slider-btn waves-effect waves-light btn" %> -->
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">WHY CAN'T I CHECK OUT?</a>
     <% end %>
   </div>
-<h3>Total Hours: <%= @cart.total_hours %></h3>
+<h4>Total Hours: <%= @cart.total_hours %></h4>
+
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>So close!</h4>
+    <p>In order to fully commit - we'll need you to either log into an existing account, or create one</p>
+    <p>Don't worry! We'll hold on to your tasks once you're set to go!</p>
+  </div>
+  <div class="modal-footer">
+    <%= link_to "LOGIN", login_path %>
+    <%= link_to "CREATE ACCOUNT", login_path %>
+  </div>
+</div>
+
 <%= render partial: "shared/task_cards", locals: {tasks: @tasks, method: :delete } %>

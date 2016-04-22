@@ -3,7 +3,7 @@ $(document).ready(function(){
   $(".button-collapse").sideNav({
     menuWidth: 175,
     edge: 'left',
-    closeOnClick: true 
+    closeOnClick: true
   });
 
   $('.slider').slider({
@@ -17,5 +17,10 @@ $(document).ready(function(){
     hover: true, // Activate on hover
     gutter: 0, // Spacing from edge
     belowOrigin: true // Displays dropdown below the button
+  });
+
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
   });
 });

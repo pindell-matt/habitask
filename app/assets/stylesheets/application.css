@@ -20,7 +20,6 @@ body {
   margin-top: 45px;
 }
 
-
 .slider .indicators {
   bottom: 60px;
   z-index: 100;
@@ -33,4 +32,8 @@ body {
 .checkout-button {
   text-align: center;
   margin-top: 40px;
+}
+
+.modal-footer {
+  text-align: center;
 }
