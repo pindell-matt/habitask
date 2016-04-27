@@ -1,6 +1,6 @@
 <h1><%= @task.name %> in <%= @task.city.name %></h1>
 <div class="row">
-  <div class="col s12 m4 l4">
+  <div class="col s12 m4 l4", id="image-style">
     <%= image_tag @task.image.url(:medium), alt: "Tag Image" %>
   </div>
   <div class="col s12 m6 l7">
