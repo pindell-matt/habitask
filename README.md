@@ -1,7 +1,7 @@
 
-## Introduction
+## Habitask
 
-Habitask is a concept shop built for a Little Shop project. Base expectations for the project were directed at creating an online ordering platform. Rather than focusing on products, Habitask is based on the idea of TaskRabbit for nonprofits. Rather than placing orders on items, visitors to Habitask can make time commitments to tasks that benefit the community. Visitors can create accounts to track their commitments. There is also an Admin of the site who can create and edit tasks.
+Habitask is a concept shop built for a Little Shop project. Base expectations for the project were directed at creating an online ordering platform. Rather than focusing on products, Habitask is based on the idea of TaskRabbit for nonprofits - instead of placing orders on items, visitors make time commitments to tasks that benefit the community. Visitors can create accounts to track their commitments. Admins can can create and edit tasks for a given community.
 
 ### Getting Started
 
@@ -23,12 +23,6 @@ Habitask is a concept shop built for a Little Shop project. Base expectations fo
 
 * How to run the test suite
   * ``` rspec ```
-
-
-* Deployment instructions
-  * ``` git push heroku master ```
-  * ``` heroku run bundle exec rake db:migrate ```
-
 
 ### Learning Goals
 
