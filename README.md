@@ -23,6 +23,9 @@ Habitask is a concept shop built for a Little Shop project. Base expectations fo
 
 * How to run the test suite
   * ``` rspec ```
+  
+
+![Image of Habitask Landing Page](https://i.imgur.com/undefined.png)
 
 ### Learning Goals
 
