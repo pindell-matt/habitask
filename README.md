@@ -25,7 +25,7 @@ Habitask is a concept shop built for a Little Shop project. Base expectations fo
   * ``` rspec ```
   
 
-![Image of Habitask Landing Page](https://i.imgur.com/undefined.png)
+![Image of Habitask Landing Page](https://i.imgur.com/ptiNKSr.jpg)
 
 ### Learning Goals
 
